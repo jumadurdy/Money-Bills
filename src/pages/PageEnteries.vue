@@ -1,4 +1,4 @@
-<template> burası sılınecek
+<template>
   <q-page>
     <div class="q-pa-md">
       <!-- LOADING GÖSTER -->
