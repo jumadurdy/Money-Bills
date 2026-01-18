@@ -1,0 +1,63 @@
+// app global css in SCSS form
+//drawer nav
+.q-drawer{
+    .q-item{
+        opacity: 0.2;
+        &.q-router-link--exact-active{
+            opacity: 1;
+            
+        }
+    }
+}
+//number inputs
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+    margin-left:10px;
+    
+}
+
+/* INPUT HOVER EFFECT - TÜM COMPONENTLER İÇİN */
+.q-field__control {
+  cursor: pointer;
+  
+  &:hover {
+    background-color: rgba(0, 0, 0, 0.08);
+  }
+}
+
+/* INPUT CURSOR COLOR */
+.q-field input {
+  cursor: text !important;
+  color: black !important;
+}
+
+.q-field input:hover {
+  cursor: text !important;
+  color: black !important;
+  caret-color: black !important;
+}
+
+.q-input input {
+  cursor: text !important;
+  color: black !important;
+  caret-color: black !important;
+}
+
+.q-input input:hover {
+  cursor: text !important;
+  color: black !important;
+  caret-color: black !important;
+}
+
+/* Genel input */
+input {
+  cursor: text !important;
+  color: black !important;
+  caret-color: black !important;
+}
+
+input:hover {
+  cursor: text !important;
+  color: black !important;
+  caret-color: black !important;
+}
