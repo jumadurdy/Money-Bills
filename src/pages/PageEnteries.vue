@@ -1,4 +1,4 @@
-<template>
+<template> burası sılınecek
   <q-page>
     <div class="q-pa-md">
       <!-- LOADING GÖSTER -->
@@ -21,6 +21,7 @@
           <template #item="{ element: enter }">
             <q-item>
               <q-item-section>{{ enter.name}}</q-item-section>
+              
               <q-item-section side>{{ enter.amount }}</q-item-section>
               <q-item-section side>
                 <q-icon name="menu" class="cursor-pointer" />
